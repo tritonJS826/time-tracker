@@ -5,8 +5,8 @@
   "author": "triton",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc && node ./dist/index.js",
-    "tsc": "tsc --build"
+    "start": "yarn build && node ./dist/index.js",
+    "build": "tsc --build"
   },
   "dependencies": {
     "debounce": "^1.2.1",
