@@ -5,11 +5,15 @@
   "author": "triton",
   "license": "MIT",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "yarn tsc && node ./dist/index.js",
+    "tsc": "tsc --build"
   },
   "dependencies": {
     "debounce": "^1.2.1",
-    "global-keypress": "^0.0.8",
-    "mouse-hooks": "^0.4.1"
+    "gkm": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "typescript": "^4.3.5"
   }
 }
