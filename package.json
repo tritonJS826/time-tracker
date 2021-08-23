@@ -1,0 +1,15 @@
+{
+  "name": "node-time-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "triton",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "global-keypress": "^0.0.8",
+    "mouse-hooks": "^0.4.1"
+  }
+}
